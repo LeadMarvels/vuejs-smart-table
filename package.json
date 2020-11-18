@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-smart-table",
+  "name": "@leadmarvels/vuejs-smart-table",
   "keywords": [
     "vue",
     "table",
@@ -10,7 +10,10 @@
   "private": false,
   "main": "src/main.js",
   "author": "Hector Romero Granillo",
-  "repository": "https://github.com/tochoromero/vuejs-smart-table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tochoromero/vuejs-smart-table.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "vue-cli-service build --target lib --name smart-table src/main.js",
@@ -54,5 +57,14 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "description": "[![CircleCI](https://circleci.com/gh/tochoromero/vuejs-smart-table/tree/master.svg?style=shield)](https://circleci.com/gh/tochoromero/vuejs-smart-table/tree/master)",
+  "bugs": {
+    "url": "https://github.com/tochoromero/vuejs-smart-table/issues"
+  },
+  "homepage": "https://github.com/tochoromero/vuejs-smart-table#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
   }
 }
